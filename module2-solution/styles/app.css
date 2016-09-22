@@ -1,0 +1,22 @@
+body {
+    background-color: #cccccc;
+}
+
+.emptyMessage {
+        font-weight: bold;
+        color: red;
+        font-size: 1.2em;
+      }
+
+li {
+    margin-bottom: 7px;
+    font-size: 1.2em;
+}
+
+li > button {
+    margin-left: 10%;
+}
+
+button > span {
+    color: green;
+}
