@@ -22,7 +22,7 @@
                    class="btn btn-default pull-right"><span class="glyphicon glyphicon-ok"></span> Bought</button>
          </li>
      </ul>
-     <div class="emptyMessage">Everything is bought!</div>
+     <div ng-show="buyList.items.length === 0" class="emptyMessage">Everything is bought!</div>
     </div>
 
     <!-- Already Bought List -->
@@ -33,7 +33,7 @@
            Bought {{item.quanity}} {{item.name}} 
         </li>
      </ul>
-     <div class="emptyMessage">Nothing bought yet.</div>
+     <div ng-show="boughtList.items.length === 0" class="emptyMessage">Nothing bought yet.</div>
     </div>
   </div>
 </div>
